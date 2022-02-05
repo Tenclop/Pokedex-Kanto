@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c6a1cf;
+}
+
+.section--center-content {
+  padding: 2rem 4rem;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  font-family: "Bangers", cursive;
+  font-size: calc(3rem + 1vw);
+  color: #ffef00;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #d9d3e2;
+  transition: 0.3s;
+  height: 25rem;
+  max-width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.container {
+  padding: 2px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(1rem + 0.5vw);
+  color: #c6a1cf;
+}
+
+.container p {
+  font-size: calc(0.6rem + 0.25vw);
+  font-weight: bold;
+  font-weight: 900;
+}
